@@ -21,4 +21,4 @@ Tous ce qui concernent les fichier de langage `R` sont dans le dossier "[R_Files
 
 Tous ce qui concernent les fichier de langage `C#` ou le projet `WPF` sont dans le dossier "[CsharpProject](CsharpProject/)".
 
-Au cas où vous avez de la question sur ce projet, voici est mon e-mail : [yksponge@gmail.com](yksponge@gmail.com)
+Au cas où vous avez de la question sur ce projet, voici est mon e-mail : <yksponge@gmail.com>

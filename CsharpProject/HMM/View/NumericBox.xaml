@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="View.NumericBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:View"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="80 ">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Label Name="lbl_number" Width="40" Grid.Column="0" Content="0"  FontSize="18" VerticalAlignment="Center" BorderBrush="Black"  BorderThickness="2" />
+        <StackPanel Grid.Column="1">
+            <Button Height="20" Width="40" Content="Up" Click="Button_Click_up"/>
+            <Button Height="20" Width="40" Content="Down" Click="Button_Click_down"/>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

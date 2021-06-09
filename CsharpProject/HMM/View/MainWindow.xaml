@@ -1,0 +1,42 @@
+﻿<Window x:Class="View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:View"
+        mc:Ignorable="d"
+        Title="HMM" Height="450" Width="600">
+    <Grid>
+        <!--
+        <Label Content="The number of Hidden States" HorizontalAlignment="Left" Margin="50,64,0,0" VerticalAlignment="Top"/>
+        <local:NumericBox x:Name="numBox_State" HorizontalAlignment="Left" Margin="259,58,0,0" VerticalAlignment="Top" />
+        -->
+        <!-- All Input Files-->
+        <Label Content="Input the data files (*.csv or *.txt):" HorizontalAlignment="Left" Margin="38,27,0,0" VerticalAlignment="Top"/>
+        <!-- The initial states -->
+        <Label Content="Initial States" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,67,0,0" />
+        <Button x:Name="btn_OpenFile_InitStates" Content="Select File" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="138,72,0,0" Click="btn_OpenFile_InitStates_Click" />
+        <Label Name="lbl_OpenFile_InitStates" Content= "No File" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,67,0,0" MouseDoubleClick="lbl_OpenFile_InitStates_MouseDoubleClick" />
+        <!-- The transition matrix-->
+        <Label Content="Transition Probabilities" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,107,0,0" />
+        <Button x:Name="btn_OpenFile_TransProbs" Content="Select File" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="198,112,0,0" Click="btn_OpenFile_TransProbs_Click" />
+        <Label Name="lbl_OpenFile_TransProbs" Content="No File" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268,107,0,0" MouseDoubleClick="lbl_OpenFile_TransProbs_MouseDoubleClick"/>
+        <!-- The emission matrx-->
+        <Label Content="Emission Probabilities" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,147,0,0" />
+        <Button Name="btn_OpenFile_EmissionProbs" Content="Select File" HorizontalAlignment="Left" Margin="208,152,0,0" VerticalAlignment="Top" Width="75" Click="btn_OpenFile_EmissionProbs_Click"/>
+        <Label Name="lbl_OpenFile_EmissionProbs" Content="No File" HorizontalAlignment="Left" Margin="288,147,0,0" VerticalAlignment="Top" MouseDoubleClick="lbl_OpenFile_EmissionProbs_MouseDoubleClick"/>
+        <!-- The observation matrx-->
+        <Label Content="Observations" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,187,0,0" />
+        <Button Name="btn_OpenFile_observation" Content="Open File" HorizontalAlignment="Left" Margin="208,192,0,0" VerticalAlignment="Top" Width="75" Click="btn_OpenFile_Click"/>
+        <Label Name="lbl_OpenFile_observation" Content="No File" HorizontalAlignment="Left" Margin="288,187,0,0" VerticalAlignment="Top" MouseDoubleClick="lbl_OpenFile_observation_MouseDoubleClick"/>
+
+        <!--test-->
+        <Button x:Name="btn_FB" Content="Forward/Backward" HorizontalAlignment="Left" Margin="38,276,0,0" VerticalAlignment="Top" Width="120" Click="btn_FB_Click"/>
+        <Button x:Name="Terminal" Content="Baum-Welch" HorizontalAlignment="Left" Margin="198,276,0,0" VerticalAlignment="Top" Width="132" Click="btn_bw_Click"/>
+        <Button x:Name="btn_Viterbi" Content="Viterbi" HorizontalAlignment="Left" Margin="368,276,0,0" VerticalAlignment="Top" Width="106" Click="btn_Viterbi_Click"/>
+        <TextBox x:Name="txt_MaxIters" HorizontalAlignment="Left" Height="23" Margin="268,251,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="62" VerticalContentAlignment="Center"/>
+        <Label Content="Max Iters:" HorizontalAlignment="Left" Margin="193,251,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>

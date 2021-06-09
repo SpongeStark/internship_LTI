@@ -1,0 +1,10 @@
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\bin\Debug\MyConsole.exe.config
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\bin\Debug\MyConsole.exe
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\bin\Debug\MyConsole.pdb
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\bin\Debug\Model.dll
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\bin\Debug\Model.pdb
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\obj\Debug\MyConsole.csprojAssemblyReference.cache
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\obj\Debug\MyConsole.csproj.CoreCompileInputs.cache
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\obj\Debug\MyConsole.csproj.CopyComplete
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\obj\Debug\MyConsole.exe
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\MyConsole\obj\Debug\MyConsole.pdb

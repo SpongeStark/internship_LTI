@@ -1,0 +1,6 @@
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\Model\bin\Debug\Model.dll
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\Model\bin\Debug\Model.pdb
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\Model\obj\Debug\Model.dll
+C:\Users\56531\Documents\Codes\VisualStudio2019\HMM\Model\obj\Debug\Model.pdb
